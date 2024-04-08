@@ -1,0 +1,78 @@
+@media screen and (max-width:480px)
+{
+    .navbar{
+        display: flex;
+        justify-content: space-between;
+    }
+    .nav-adjacent{
+        display: flex;
+        flex-direction: column;
+        line-height: 1.8;
+    }
+    .media-container{
+      overflow-x: auto;
+      width: 100%;
+    }
+    .location{
+        padding-left: 20px;
+    }
+    .event-container{
+        display: flex;
+        width: 80vw;
+        flex-direction: column;
+        align-self: center;
+    }
+    .message{
+        margin-top: 50px;
+        font-size: 30px;
+        line-height: 1.6;
+    }
+    .message-para{
+        text-align: center;
+        line-height: 1.5;
+        font-size: 16px;
+    }
+    /* .search-icon{
+        position: relative;
+        left: 2px;
+    } */
+    .eve-image{
+       width:100%;
+      }
+      .category{
+        display: none;
+      }
+      .nav-container{
+        margin-right: -40px;
+        display: flex;
+        justify-content: end;
+      }
+      .search{
+        display: none;
+      }
+      .fav{
+        font-size: 0;
+        padding-left: 10px;
+      }
+      .fav-icon{
+        font-size: 20px;
+      }
+      .sign-in{
+        border: 0;
+        font-size: 0;
+        background-color: #ffffff;
+      }
+      .sign-icon{
+        font-size: 20px;
+      }
+      .cards-heading{
+        font-size: medium;
+      }
+      .main-container{
+        width: 105vw;
+      }
+
+      
+      
+      
+}

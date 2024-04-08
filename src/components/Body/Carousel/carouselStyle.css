@@ -1,0 +1,117 @@
+.cards-container {
+  display: flex;
+  flex-direction: column;
+}
+.carousel-cards {
+  position: relative;
+  display: flex;
+  overflow-x: auto;
+  gap: 20px;
+}
+.card-elements {
+  position: relative;
+}
+.card-shows {
+  position: relative;
+}
+.caption-container {
+  display: grid;
+  grid-template-areas:
+    "n n n d"
+    "l l o o";
+  position: absolute;
+  bottom: 5%;
+  height: 10%;
+  width: 100%;
+  color: #ffffff;
+}
+.cap-name {
+  grid-area: n;
+}
+.cap-location {
+  grid-area: l;
+}
+.cap-date {
+  grid-area: d;
+}
+.cap-other {
+  grid-area: o;
+}
+.cards-heading {
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  color: red;
+}
+.caption {
+  padding: 0 10px 10px;
+  font-size: small;
+}
+.event-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  overflow-y: auto;
+  justify-content: space-around;
+  gap: 20px;
+  width: 80vw;
+  height: 70vh;
+}
+.card-events {
+  padding: 10px;
+  border: 1px solid #cf2d2d;
+  border-radius: 10px;
+}
+.event-caption-container > .caption {
+  padding: 0 10x;
+}
+.event-name {
+  font-size: larger;
+}
+.event-caption-container {
+  margin-top: -50px;
+  padding: 20px 10px 10px 10px;
+}
+.other-container {
+  display: flex;
+  padding-top: 10px;
+  justify-content: space-between;
+}
+.flex-heading {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.subtitle {
+  color: #989090;
+  font-weight: 200;
+}
+.img-container {
+  position: relative;
+}
+.image-date {
+  position: relative;
+  display: block;
+  color: white;
+  background-color: #0009;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  padding: 10px;
+  bottom: 44px;
+}
+.loading-container{
+  position: relative;
+  left: 30vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50vw;
+  height: 50vh;
+  background-color: #0007;
+  border-radius: 20px;
+}
+.lazy-loading{
+  color: azure;
+}
+.eve-image{
+  width: 100%;
+}
